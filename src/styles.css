@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: monospace;
 }
 
 :root {
@@ -11,25 +12,85 @@
     --white: #EEEEEE;
 }
 
+.text-shadow {
+    text-shadow: 1px 1px var(--black), -1px -1px var(--black);
+}
+
 body {
-    background-color: var(--black);
+    background-color: var(--grey);
 }
 
 nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: var(--yellow);
+    color: white;
+}
+
+nav h1 {
+    font-size: 2.0rem;
+    margin-left: 8px;
+    cursor: default;
 }
 
 nav button {
-    font-size: 1.5rem;
+    font-size: 2.0rem;
     cursor: pointer;
     border: none;
     background-color: var(--yellow);
-    padding: 16px;
+    padding: 8px 16px;
+    font-weight: bold;
+    color: white;
 }
 
 nav button:hover {
     background-color: var(--white);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--white);
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 16px;
+    background-color: var(--black);
+}
+
+.hero-container_img {
+    width: 100%;
+    max-height: 40vh;
+}
+
+.hero-qutation-container {
+    display: inline-block;
+}
+
+.hero-qutation-container_quote {
+    display: block;
+    font-size: 2.0rem;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.hero-qutation-container_cite {
+    text-align: right;
+    margin-top: 8px;
+    font-weight: normal;
+}
+
+.testimonial-container {
+    width: clamp(55ch, 50%, 85ch);
+    text-align: center;
+}
+
+.testimonial-container_border-top {
+    width: 100%;
 }
