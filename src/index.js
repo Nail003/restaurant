@@ -1,3 +1,4 @@
 import "./styles.css"
+import { renderHomePage } from "./pages/homePage/home"
 
-console.log("Im working")
+renderHomePage()

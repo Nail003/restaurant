@@ -67,7 +67,7 @@ main {
     background-color: var(--black);
 }
 
-.hero-container_img {
+.hero-container_banner {
     width: 100%;
     max-height: 40vh;
 }
@@ -139,5 +139,6 @@ footer {
     text-align: center;
     padding: 4px 0px;
     font-weight: bolder;
+    cursor: default;
 
 }
