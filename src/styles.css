@@ -50,6 +50,11 @@ nav button:hover {
     color: var(--yellow);
 }
 
+.nav_button--active {
+    color: var(--yellow);
+    cursor: default;
+}
+
 main {
     display: flex;
     flex-direction: column;

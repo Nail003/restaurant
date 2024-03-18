@@ -7,7 +7,7 @@ export function createHeader() {
 function createNav() {
     const nav = document.createElement('nav')
     nav.appendChild(createNavLogoHeading("Potato Parlour"))
-    const buttonTextArray = ['Home', 'Menu', 'Locations']
+    const buttonTextArray = ['Home', 'Menu']
     nav.appendChild(createNavButtonContainer(buttonTextArray))
     return nav
 }
@@ -32,6 +32,7 @@ function createNavButtonContainer(buttonTextArray) {
 function createNavButton(text) {
     const button = document.createElement('button')
     button.classList.add('text-shadow')
+    button.id = `${text}-button`
     button.textContent = text
     return button
 }

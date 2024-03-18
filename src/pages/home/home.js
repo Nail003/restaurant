@@ -16,3 +16,10 @@ export function renderHomePage() {
     body.appendChild(createFooter())
 }
 
+export function reRenderHomePage() {
+    const main = document.querySelector('main')
+    main.innerHTML = ''
+    main.appendChild(createHeroSection())
+    main.appendChild(createTestimonial())
+}
+

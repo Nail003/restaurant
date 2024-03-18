@@ -15,7 +15,7 @@ const itemList = [
 
 export function renderMenuPage() {
     const main = document.querySelector('main')
-    main.innerHTML('')
+    main.innerHTML = ''
     const menu = document.createElement('div')
     menu.classList.add('menu')
 
