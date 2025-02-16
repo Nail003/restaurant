@@ -1,7 +1,3 @@
-Below is a README draft for your **Restaurant** project, styled similarly to the previous ones, but without the **Build With** section:
-
----
-
 # Restaurant
 
 Restaurant is a web application developed as one of my ODIN assignments. This app is designed to simulate a restaurant experience with interactive elements and a modern interface.
@@ -18,7 +14,7 @@ Restaurant is a web application developed as one of my ODIN assignments. This ap
 
 ## Live Demo
 
-Experience the Restaurant app live: [Restaurant Live](https://nail003.github.io)
+Experience the Restaurant app live: [Restaurant Live](https://nail003.github.io/restaurant)
 
 ## Features
 
@@ -70,14 +66,8 @@ This command builds the project and deploys it to your GitHub Pages site.
 
 - [The Odin Project](https://www.theodinproject.com) – for the educational resources and inspiration behind this project.
 
-## Feedback
-
-If you encounter any issues or have suggestions for improvement, please feel free to report them via my [LinkedIn profile](https://www.linkedin.com/in/danial-zafar-dev).
-
 ## About
 
 This Restaurant app was created as part of my ODIN assignment. It blends creative design with interactive features to simulate a restaurant experience in a web environment.
 
 ---
-
-Feel free to modify or expand any section as your project evolves!
